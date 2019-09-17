@@ -1,6 +1,6 @@
 /******************************************************************************
 * file: max-min_optimized.s
-* author: Sanjana Jammi, CS18M522
+* author: Pavan Kumar G, CS18M517
 * Guide: Prof. Madhumutyam IITM, PACE
 ******************************************************************************/
 @ BSS section
