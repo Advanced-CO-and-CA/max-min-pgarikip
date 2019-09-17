@@ -8,7 +8,7 @@
   
 @ DATA SECTION
   .data  
-  data_items    : .word 10, 4, 28, 0, 100, 8
+  data_items    : .word 10, 4, 28, 400, 100, 8, 800, -20, 123
   data_items_end: .word 0
   length        : .word (data_items_end - data_items)/4
   
@@ -54,7 +54,7 @@ loop:
 		MOVGT r2,r3;			@update MAx element
 		
 		CMP r3, r1;
-		MOVLE r1, r3;			@ min value is updated if it is lesser than or equal to the existing min element
+		MOVLT r1, r3;			@ min value is updated if it is lesser than or equal to the existing min element
 		
 		
 		
